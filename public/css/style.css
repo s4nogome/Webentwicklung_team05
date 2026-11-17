@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Drückt den Footer nach unten */
+}
+
+/* Optionale Anpassung für das Logo in der Navigation */
+.navbar-brand img {
+    max-height: 40px;
+}
